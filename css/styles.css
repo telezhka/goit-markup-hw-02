@@ -11,10 +11,6 @@ body {
   color: var(--brand-color);
   background-color: #fff;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   font-size: 16px;
   /* задать дефолтный интерлинъяж для ощей массы текста
   и вес шрифта */
@@ -35,8 +31,6 @@ footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.333;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -46,22 +40,23 @@ footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.333;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .nav-main-item {
   font-weight: 500;
   color: var(--brand-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .nav-main-item:hover,
 .nav-main-item:focus {
   color: var(--brand-btn-act);
-  text-decoration: underline;
 }
 .contacts {
   color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
   font-style: normal;
 }
 .contacts:hover,
@@ -83,10 +78,10 @@ footer {
   background-color: var(--brand-color-light);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  display: flex;
-  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -95,23 +90,37 @@ footer {
 .hero-btn:active {
   background-color: var(--brand-btn-act);
 }
-/* .hidden-title{} */
-/* .desc{} */
+.hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .desc-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--brand-color);
+  letter-spacing: 0.02em;
 }
 .desc-text {
   font-size: 16px;
   color: var(--secondary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.111;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
 }
@@ -129,35 +138,37 @@ footer {
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--brand-color);
 }
 .card-desc {
+  line-height: 1.5;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 .logo-footer {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.111;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
-/* .portfolio-header {
-} */
 .project-filter-btn {
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color-light);
   cursor: pointer;
@@ -168,8 +179,6 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   font-weight: 500;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
