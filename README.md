@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-telik-bl3-hw-2
+telik-bl3-hw-3
