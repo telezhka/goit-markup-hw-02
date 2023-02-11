@@ -255,7 +255,6 @@ h3 {
   display: flex;
 }
 .nav-main-item.last {
-  /* margin-right: 332px; */
   margin-right: auto;
 }
 .contacts.mail {
